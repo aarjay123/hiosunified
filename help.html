@@ -1,0 +1,72 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="color-scheme" content="dark light">
+		<link rel="icon" href="icons/house.png" type="image/icon type">
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/backgroundimage_signup.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+		<title>HiOS | Help</title>
+		<script>
+			function showHelpDiv () {
+				document.getElementById('appInfo').style.display = "none";  //empty the value
+				document.getElementById('helpCenter').style.display = "block";
+				document.getElementById('infoText').style.display = "none";
+				document.getElementById('helpActive').style.display = "block";
+				document.getElementById('appinfoActive').style.display = "none";
+				}
+				
+			function showAppinfoDiv () {
+				document.getElementById('appInfo').style.display = "block";  //empty the value
+				document.getElementById('helpCenter').style.display = "none";
+				document.getElementById('infoText').style.display = "block";
+				document.getElementById('helpActive').style.display = "none";
+				document.getElementById('appinfoActive').style.display = "block";
+				}
+		</script>
+	</head><br>
+	<body>
+	<br><center>
+		<div class="offerBox">
+			<img src="assets/pics/logos/logo.png" width="400" class="roundedImage">
+			<br>
+			<a href="dashboard.html"><img src="assets/icons/previous.png" width="100"></a>
+			<p class="paraHome">Back</p>
+		</div><br>
+		<div class="offerBox">
+		<div id="helpActive" style="display:block">
+			<button class="navButtonInactive" onClick="showHelpDiv()">Help Center</button><br><br><button class="navButton" onClick="showAppinfoDiv()">About App</button><br><br>
+		</div>
+		<div id="appinfoActive" style="display:none">
+			<button class="navButton" onClick="showHelpDiv()">Help Center</button><br><br><button class="navButtonInactive" onClick="showAppinfoDiv()">About App</button><br><br>
+		</div></div><br>
+		<div class="offerBox">
+		<div id="helpCenter" style="display:block">
+		<center><h1 class="headingHome"><u>Help Center</u></h1><br>
+			<img src="assets/icons/help.png">
+		<p class="paraHome">Do you need help with anything in this app? Please click on what you need help with down below.</p><br>
+			<a href="checkinHELP.html"><img src="assets/buttons/help/checkin.png" class="helpButton"></a> &nbsp; <a href="keyHELP.html"><img src="assets/buttons/help/key.png" class="helpButton"></a><br>
+			<a href="locationHELP.html"><img src="assets/buttons/help/location.png" class="helpButton"></a> &nbsp; <a href="breakfastHELP.html"><img src="assets/buttons/help/breakfast.png" class="helpButton"></a><br>
+			<a href="rmserviceHELP.html"><img src="assets/buttons/help/roomservice.png" class="helpButton"></a> &nbsp; <a href="formsHELP.html"><img src="assets/buttons/help/forms.png" class="helpButton"></a><br>
+			</div>
+		<div id="appInfo" style="display:none">
+				<h1 class="headingHome"><u>About App</u></h1><br>
+				<div id="infoText" style="display:none"><p class="paraHome"><strong><u><i>App Name:</strong></u></i>&nbsp; HiOS(tm)-Unified</p>
+				<p class="paraHome"><strong><u><i>Web software version:</strong></u></i>&nbsp; 1.1</p>>
+				<p class="paraHome"><strong><u><i>Changelog:</strong></u></i><br></p>
+					<p class="paraHome">Welcome to the new Worst Eastern(tm) touchscreen kiosk software! In this version we added:</p>
+						<ul class="paraHome">
+							<li>A beautiful new design aesthetic</li>
+							<li>A simplistic, easier layout</li>
+							<li>More secure</li>
+							
+						<ul><br>
+					<center><p id="smallpara">This webapp was made entirely with HTML5, CSS, and Javascript</p><br>
+						</div></div></div>
+			<br><br><br>
+		<center><p id="smallpara">Copyright © The Highland Cafe(tm) Ltd. 2021. All Rights Reserved.</p></center>
+							<!Never Gonna Give You Up>
+	</body>
+</html>
