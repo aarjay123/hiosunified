@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+html {
+	background-color: black;
+	font-family: 'Shippori Antique', sans-serif;
+}
+
+#otherBodies {
+	/*background-color: #FCFCFF;*/
+	background-color: black;
+	font-family: 'Shippori Antique', sans-serif;
+	color: white;
+}
+
+.navButton {
+	height:60px;
+    	width:200px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 20px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+	
+.navButtonInactive {
+	height:60px;
+	width:200px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 20px;
+	background-color: #bfe6ff;
+	color: grey;
+	border-radius: 16px;
+	border: none;
+}
+
+.offerBox {
+	border-radius: 25px;
+	/*background: #006ee6;*/
+	background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+	padding: 10px;
+	width: 800px;
+	backdrop-filter: blur(14px);
+	text-align: center;
+}
+
+.offerBoxExpired {
+	border-radius: 25px;
+	background: red;
+	padding: 10px;
+	width: 350px;
+}
+
+.offerHeadings {
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.offerBody {
+	font-size: 20px;
+}
+
+.offerExpiry {
+	font-size: 10px;
+	font-style: italic;
+}
+
+.offerDate {
+	font-size: 14px;
+	text-align: left;
+}
+
+.termsconditions {
+	background-color: #FCFCFF;
+	color: black;
+	font-family: 'Courier Prime', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: #FCFCFF;
+  }
+}
+
+#infoText {
+	font-family: 'Courier Prime', monospace;
+}
+
+#homeheading {
+	font-size: 40px;
+	animation: pulse 15s infinite;
+}
+
+#p11 {
+	font-size: 40px;
+	color: #0F9D58;
+}
+
+#p12 {
+	font-size: 40px;
+	color: #4285F4;
+}
+
+#para {
+	font-size: 20px;
+}
+
+#paraheadings {
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+}
+
+#smallpara {
+	font-size: 10px;
+	color: black;
+}
+
+#rightalign {
+	text-align: right;
+}
+
+.wrapper {
+	display: grid;
+ 	grid-template-columns: 400px 400px;
+	justify-content: center;
+}
+
+#rickroll {
+	font-size: 40px;
+	text-decoration: underline;
+	animation: pulse 15s infinite;
+}
+
+@keyframes pulse {
+  0% {
+	/*color: #FF4F4B;*/
+	color: #FF0000;
+  } /* Red */
+  
+  25% {
+	/*color: #a0d2eb;*/
+	color: #0000FF;
+  } /* Blue */
+  
+  50% {
+	/*color: #90EE90;*/
+	color: #228B22
+  } /* Green */
+  
+  75% {
+	/*color: #808080;*/
+	color: #FFFFFF;
+  } /* White */
+  
+  100% {
+	/*color: #494d5f;*/
+	color: orange;
+  } /* Black */
+}
+
+#nextButtonRoomkey {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 15px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+
+#nextButtonRoomkey:hover {
+	background-color: #68c6ff; /* lightblue */
+	color: white;
+}
+
+#nextButtonRoomkey2 {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 15px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+
+#nextButtonRoomkey2:hover {
+	background-color: #68c6ff; /* lightblue */
+	color: white;
+}
+
+.inputBox {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 30px;
+	width: 100px;
+	font-family: 'Shippori Antique', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+#nfccheck {
+	display: block;
+}
+
+#roomunlock {
+	display: none;
+}
+
+.roundedImage {
+	border-radius: 15px;
+}
+
+#exitButton {
+	display: none;
+}
+
+.row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 50%;
+  }
+  
+.paraHome {
+	font-size: 20px;
+	color: black;
+}
+
+.loginText {
+	font-size: 20px;
+	color: black;
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+#usernameBox {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 60px;
+	width: 400px;
+	font-family: 'Shippori Antique', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+#passwordBox {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 60px;
+	width: 400px;
+	font-family: 'Courier Prime', monospace;
+	text-align: center;
+	font-size: 20px;
+}
+
+#confirmPassword {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 60px;
+	width: 400px;
+	font-family: 'Courier Prime', monospace;
+	text-align: center;
+	font-size: 20px;
+}
+
+.genericBox {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 60px;
+	width: 400px;
+	font-family: 'Shippori Antique', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*Captcha box*/
+#captchaBox {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 30px;
+	width: 100px;
+	font-family: 'Courier Prime', monospace;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+/*login button*/
+
+#loginButton {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 15px;
+	background-color: #0504b7;
+	color: white;
+	border-radius: 16px;
+	border: none;
+	transition: 0.25s;
+}
+
+#loginButton:hover {
+	background-color: #1513f9; /* lightblue */
+	color: white;
+	transition: 0.25s;
+}
+
+/*signup button*/
+
+#signupButton {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 15px;
+	background-color: #256825;
+	color: white;
+	border-radius: 16px;
+	border: none;
+	transition: 0.25s;
+}
+
+#signupButton:hover {
+	background-color: #449e48; /* lightgreen */
+	color: white;
+	transition: 0.25s;
+}
+
+/*submit button for creating an account*/
+
+#submitButton {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 15px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+
+#submitButton:hover {
+	background-color: #68c6ff; /* lightblue */
+	color: white;
+}
+
+/*black title heading*/
+.headingHome {
+	color: black;
+}
+
+/*booking info*/
+.infoBox {
+	border-radius: 25px;
+	background: #006ee6;
+	padding: 10px;
+	width: 350px;
+}
+
+/*HELP! BUTTONS*/
+
+.helpButton {
+	width: 350px;
+}
+
+.offerBox2 {
+	border-radius: 25px;
+	/*background: #006ee6;*/
+	background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+	padding: 10px;
+	width: 400px;
+	backdrop-filter: blur(14px);
+	text-align: center;
+}
+
+/*YOUR DASHBOARD INFOBOX*/
+
+.translucentInfoBox {
+	border-radius: 25px;
+	/*background: #006ee6;*/
+	background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+	padding: 10px;
+	width: 300px;
+	backdrop-filter: blur(14px);
+	text-align: center;
+	color: black;
+}
+
+/*UNDER DEVELOPMENT*/
+
+.underdevPara {
+	font-size: 20px;
+	color: white;
+}
+
+/*2FA THREE DIGIT CODE STYLING*/
+
+#threedigit {
+	font-family: 'Courier Prime', monospace;
+	color: black;
+	font-size: 60px;
+	font-weight: bolder;
+}

@@ -1,0 +1,7 @@
+html {
+	/*background-color: #FCFCFF;*/
+	background-color: black;
+	background-image: url('background_images/backgroundimage.png');
+	background-repeat: repeat;
+	color: white;
+}
